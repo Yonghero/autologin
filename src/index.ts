@@ -11,9 +11,3 @@ export class AutoLogin {
     return createAutoLoginWithAxios(axiosInstance, this.asyncCb)
   }
 }
-
-// const autologin = new AutoLogin(async () => (true))
-
-// const al = autologin.withAxios()
-
-// al(config)
