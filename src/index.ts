@@ -7,7 +7,7 @@ export class AutoLogin {
     this.asyncCb = asyncCb
   }
 
-  withAxios(axiosInstance: any) {
+  withAxios(axiosInstance: (config: Record<string, any>) => void) {
     return createAutoLoginWithAxios(axiosInstance, this.asyncCb)
   }
 }
