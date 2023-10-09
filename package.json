@@ -1,7 +1,7 @@
 {
   "name": "@yonghero/autologin",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "pnpm@8.8.0",
   "description": "_description_",
   "author": "Younghero",
@@ -30,6 +30,10 @@
         "./dist/index.d.ts"
       ]
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "dist"
